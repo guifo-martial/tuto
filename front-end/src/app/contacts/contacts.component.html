@@ -1,0 +1,21 @@
+<div class="panel panel-primary">
+	<div class="panel-heading">liste</div>
+	<div class="panel-body">
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Nom</th>
+				<th>Prenom</th>
+				<th>Email</th>
+				<th>Tel</th>
+			</tr>
+			<tr *ngFor="let c of listContact">
+				<td>{{c.id}}</td>
+				<td>{{c.nom}}</td>
+				<td>{{c.prenom}}</td>
+				<td>{{c.email}}</td>
+				<td>{{c.tel}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
